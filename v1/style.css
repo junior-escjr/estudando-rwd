@@ -51,12 +51,12 @@ a:hover{
     max-width: 300px;
     height: 51px;
     font-size: 0;
-    background: url(img/logo.png) center center no-repeat;
+    background: url('img/logo.png') center center no-repeat;
     background-size: 100% auto;
 }
 
 .main_header_search{
-    width: 26.041%;
+    width: 26.042%;
     float: right;
 }
 
