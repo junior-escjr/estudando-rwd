@@ -116,8 +116,13 @@ a:hover{
 }
 
 /*CONTENT*/
+
+.main_content {
+    background: #fff;
+}
+
 .title-section{
-    font-size: 18px;
+    font-size: 1.12em; /* 18 / 16 = 1,125*/
     font-weight: 300;
     color: #555;
     margin-bottom: 20px;
@@ -125,40 +130,32 @@ a:hover{
     border-bottom: 1px solid #555;
 }
 
-.title-sidebar{
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    padding-left: 20px;
-    border-left: 5px solid #ccc;
-}
-
 .lastnews{
     float: left;
-    width: 630px;
+    width: 66%; /* (630 / 960) * 100 */
 }
 
 .lastnews_destaque{
     float: left;
-    width: 660px;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 3.2%; /* (20 / 630) * 100 */
 }
 
 .lastnews_destaque .capaaqui{
     float: left;
-    width: 630px;
+    width: 100%;
     height: 300px;
     background: #eee;
-    margin-bottom: 20px;
+    margin-bottom: 3.2%; /* (20 / 630) * 100 */
 }
 
 .lastnews_destaque h1{
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 1.5em; /* 24 / 16 = 1.5*/
+    margin-bottom: 1.6%; /* (10 / 630) * 100 */
 }
 
 .lastnews_destaque p{
-    margin: 15px 0;
+    margin: 1.2% 0; /* ((15 / 630) * 100) / 2 */
 }
 
 .lastnews_article{
