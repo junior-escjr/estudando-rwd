@@ -1,1 +1,1 @@
-# estudando-rwd
+# Junior V1 do layout responsivo
