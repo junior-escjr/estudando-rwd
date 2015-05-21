@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 a{
@@ -84,6 +87,7 @@ a:hover{
 
 .main_header_menu li{
     float: left;
+    list-style: none;
 }
 
 .main_header_menu a{
