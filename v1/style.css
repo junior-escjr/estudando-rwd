@@ -56,7 +56,7 @@ a:hover{
 }
 
 .main_header_search{
-    width: 26.042%;
+    width: 26.04%;
     float: right;
 }
 
@@ -106,7 +106,7 @@ a:hover{
     float: left;
     padding: 15px;
     color: #fff;
-    font-size: 0.875em; /* (alvo / contexto) */
+    font-size: .9em; /* (alvo / contexto) */
     text-decoration: none;
     text-transform: uppercase;
 }
