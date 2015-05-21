@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Junior V1 do layout responsivo
-=======
 # Estudando Web Design Responsivo
 
 Repositório com testes e pesquisas sobre Web Design Responsivo.
@@ -10,4 +7,3 @@ Repositório com testes e pesquisas sobre Web Design Responsivo.
 ## Links úteis
 
 **[Window Resizer:](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=pt-BR)** Extensão para Chrome que emula diversas resoluções.
->>>>>>> master
