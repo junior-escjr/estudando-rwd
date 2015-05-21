@@ -10,7 +10,7 @@
 
     </head>
     <body>
-        <header class="main_header">
+        <header class="main_header container">
             <div class="content">
                 <h1 class="main_header_logo">WS - Design Design Responsivo</h1>
 
@@ -22,14 +22,16 @@
             </div>
 
             <div class="main_header_menu">
-                <ul>
-                    <li><a href="index.php" title="Home">Home</a></li>
-                    <li><a href="index.php" title="Artigos">Artigos</a></li>
-                    <li><a href="index.php" title="Categorias">Categorias</a></li>
-                    <li><a href="index.php" title="Sobre o RWD">Sobre o RWD</a></li>
-                    <li><a href="index.php" title="Fale Conosco">Contato</a></li>
-                </ul>
-                <div class="clear"></div>
+                <div class="content">
+                    <ul>
+                        <li><a href="index.php" title="Home">Home</a></li>
+                        <li><a href="index.php" title="Artigos">Artigos</a></li>
+                        <li><a href="index.php" title="Categorias">Categorias</a></li>
+                        <li><a href="index.php" title="Sobre o RWD">Sobre o RWD</a></li>
+                        <li><a href="index.php" title="Fale Conosco">Contato</a></li>
+                    </ul>
+                    <div class="clear"></div>                    
+                </div>
             </div>
         </header>        
 
