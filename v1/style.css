@@ -45,19 +45,16 @@ a:hover{
     width: 300px;
     height: 51px;
     font-size: 0;
-<<<<<<< HEAD
     background: url('img/logo.png') center center no-repeat;
     background-size: 100% auto;
 }
 
 .main_header_search{
     width: 26.04%;
-=======
     background: url(img/logo.png) center center no-repeat;
 }
 
 .main_header_search{
->>>>>>> origin/master
     float: right;
 }
 
@@ -103,11 +100,8 @@ a:hover{
     float: left;
     padding: 15px;
     color: #fff;
-<<<<<<< HEAD
     font-size: .9em; /* (alvo / contexto) */
-=======
     font-size: 14px;
->>>>>>> origin/master
     text-decoration: none;
     text-transform: uppercase;
 }
