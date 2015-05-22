@@ -228,7 +228,7 @@ a:hover{
     text-align: center;
 }
 
-/*BREAKPOINT 1080*/
+/*BREAKPOINT 1080PX*/
 @media (max-width: 1080px){
     .content{
         width: 96%;
