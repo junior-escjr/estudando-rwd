@@ -51,7 +51,7 @@ a:hover{
     max-width: 300px;
     height: 51px;
     font-size: 0;
-    background: url(../img/logo.png); center center no-repeat;
+    background: url('../img/logo.png') center center no-repeat;
     background-size: 100% auto;
 }
 
@@ -86,6 +86,10 @@ a:hover{
 
 .main_header_menu{
     background: #232b3d;
+}
+
+.main_header_menu .mobmenu {
+    display: none;
 }
 
 .main_header_menu .content{
@@ -233,10 +237,6 @@ a:hover{
     .content{
         width: 96%;
     }
-
-    .main_header_menu .mobmenu {
-        display: none;
-    }
 }
 
 
@@ -329,5 +329,44 @@ a:hover{
 
     .main_header_menu .mobmenu.active {
         background-color: #8ca8bf;
+    }
+}
+
+
+/*BREAKPOINT 460PX*/
+@media (max-width: 460px){
+    .main_header_logo {
+        max-width: 100%;
+        margin-bottom: 5%;
+        background-size: auto 96%;
+    }
+
+    .main_header_search {
+        float: left;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .main_header_menu li {
+        width: 100%;
+    }
+
+    .title-section {
+        font-size: .9em;
+    }
+
+    .lastnews_article, .sidebar_widget {
+        float: left;
+        width: 100%;
+        margin: 0 0 5% 0!important;
+    }
+}
+
+
+/*BREAKPOINT 340PX*/
+@media (max-width: 340px){
+    .main_header_search {
+        width: 100%;
+        margin: 0;
     }
 }
