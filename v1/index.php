@@ -9,12 +9,15 @@
         <link rel="shortcut icon" href="img/favicon.png"/>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/scripts.js"></script>
+
     </head>
     <body>
         <header class="main_header container">
-            <div class="content">
+            <div class="content logosearch">
                 <h1 class="main_header_logo">WS - Design Design Responsivo</h1>
-
                 <form class="main_header_search" name="search" action="" method="post">
                     <input class="s" type="search" placeholder="Pesquisar Conteúdo:"/>
                     <input class="b" type="submit" value="Ir"/>
@@ -23,6 +26,7 @@
             </div>
 
             <div class="main_header_menu">
+                <a href="#" class="mobmenu" title="Mobile Nav">MENU</a>
                 <div class="content">
                     <ul>
                         <li><a href="index.php" title="Home">Home</a></li>

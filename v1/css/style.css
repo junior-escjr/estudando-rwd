@@ -233,6 +233,10 @@ a:hover{
     .content{
         width: 96%;
     }
+
+    .main_header_menu .mobmenu {
+        display: none;
+    }
 }
 
 
@@ -290,5 +294,40 @@ a:hover{
 
     .sidebar_widget:nth-of-type(2n+0) {
         margin-right: 0 !important;
+    }
+}
+
+
+/*BREAKPOINT 580PX*/
+@media (max-width: 580px){
+    .content {
+        width: 96%;
+    }
+
+    .logosearch {
+        padding: 4% 0 !important;
+    }
+
+    .main_header_menu .content {
+        width: 100%;
+        display: none;
+    }
+
+    .main_header_menu li {
+        width: 50%;
+    }
+
+    .main_header_menu a {
+        width: 100%;
+    }
+
+    .main_header_menu .mobmenu {
+        display: block;
+        width: 100%;
+        background-color: #738cbf;
+    }
+
+    .main_header_menu .mobmenu.active {
+        background-color: #8ca8bf;
     }
 }
