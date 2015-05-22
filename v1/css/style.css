@@ -20,7 +20,7 @@ a:hover{
     width: 100%;
 }
 
-/* largura alvo: 960px, contexto: 1366; ( (960 / 1366) + 100 = 70,27818448023426 )*/
+/* largura alvo: 960px ( (960 / 1366) + 100 = 70,27818448023426 )*/
 .content{
     width: 80%;
     margin: 0 auto;
