@@ -170,7 +170,7 @@ a:hover{
 }
 
 .lastnews_article header{
-    margin-bottom: 1.6%; /* (10 / 630)*/
+    margin-bottom: 1.6%; /* (10 / 630) * 100 */
 }
 
 .lastnews_article .capaaqui{
@@ -193,30 +193,35 @@ a:hover{
 
 .sidebar{
     float: right;
-    width: 300px;
+    width: 30%;
 }
 
 .sidebar_widget{
     float: left;
-    width: 300px;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
+    width: 100%;
+    margin-bottom: 5%; /* (15 / 300) * 100 */
+    padding-bottom: 5%;
     border-bottom: 1px solid #3a465f;
+}
+
+.sidebar_widget time {
+    font-size: .75em;
+    margin-top: 5%;
+    display: block;
 }
 
 .sidebar_widget .capaaqui{
     float: left;
-    width: 300px;
+    width: 100%;
     height: 150px;
     background: #eee;
-    margin-bottom: 15px;
+    margin-bottom: 5%;
 }
 
 
 
 /*FOOTER*/
 .main_footer{
-    display: block;
     background: #eee;
     padding: 25px 0;
     text-align: center;
