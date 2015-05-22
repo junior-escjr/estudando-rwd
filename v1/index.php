@@ -2,9 +2,10 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>WS - RWD: Layout Fluído</title>
 
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="css/style.css" />
         <link rel="shortcut icon" href="img/favicon.png"/>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
@@ -36,7 +37,6 @@
         </header>        
 
         <main class="main_content container">
-
             <div class="content">
                 <section class="lastnews">
                     <header class="title-section">
@@ -56,7 +56,8 @@
                     </article>
 
                     <?php
-                    for ($i = 1; $i <= 4; $i++): ?>
+                    for ($i = 1; $i <= 4; $i++):
+                        ?>
                         <article class="lastnews_article">
                             <header>
                                 <div class="capaaqui"></div>
@@ -89,8 +90,6 @@
 
                 <div class="clear"></div>
             </div>
-            <!-- /content -->
-
         </main>
 
         <footer class="main_footer container">
