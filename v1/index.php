@@ -56,10 +56,8 @@
                     </article>
 
                     <?php
-                    for ($i = 1; $i <= 4; $i++):
-                        $last = ($i % 2 == 0 ? 'last' : '');
-                        ?>
-                        <article class="lastnews_article <?= $last; ?>">
+                    for ($i = 1; $i <= 4; $i++): ?>
+                        <article class="lastnews_article">
                             <header>
                                 <div class="capaaqui"></div>
                                 <h1><a href="#" title="Leia mais sobre [TITULO]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h1>
