@@ -268,3 +268,24 @@ a:hover{
         background: #fff;
     }
 }
+
+/* BREAKPOINT 620PX */
+@media (max-width: 620px){
+    .main_header_logo{
+        max-width: 50%;
+    }
+
+    .main_header_search{
+        width: 40%;
+    }
+
+    .sidebar_widget{
+        width: 48%;
+        display: block !important;
+        margin: 0 4% 4% 0 !important;
+    }
+
+    .sidebar_widget:nth-of-type(2n+0){
+        margin-right: 0 !important;
+    }
+}
