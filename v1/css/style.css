@@ -327,3 +327,30 @@ a:hover{
         background: #8ca8bf;
     }
 }
+
+/* BREAKPOINT 460PX */
+@media (max-width: 460px){
+    .main_header_logo{
+        max-width: 100%;
+        margin-bottom: 5%;
+        background-size: auto 96%;
+    }
+
+    .main_header_search{
+        float: left;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .title-section{
+        font-size: 0.9em;
+    }
+
+    .lastnews_article,
+    .sidebar_widget{
+        float: left;
+        width: 100%;
+        margin: 0 !important;
+        margin-bottom: 5% !important;
+    }
+}
