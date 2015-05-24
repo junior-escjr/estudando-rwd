@@ -354,3 +354,11 @@ a:hover{
         margin-bottom: 5% !important;
     }
 }
+
+/* BREAKPOINT 340PX */
+@media (max-width: 340px){
+    .main_header_search{
+        width: 100%;
+        margin: 0;
+    }
+}
