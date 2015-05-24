@@ -91,6 +91,10 @@ a:hover{
     padding: 0px;
 }
 
+.main_header_menu .mobmenu{
+    display: none;
+}
+
 .main_header_menu ul{
     margin: 0 auto;
 }
