@@ -9,10 +9,21 @@
         <link rel="shortcut icon" href="img/favicon.png"/>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            $(function(){
+                $('.mobmenu').click(function(){
+                    $('.main_header_menu .content').slideToggle();
+                    $(this).toggleClass('active');
+                    return false;
+                });
+            });
+        </script>
+
     </head>
     <body>
         <header class="main_header container">
-            <div class="content">
+            <div class="logosearch content">
                 <h1 class="main_header_logo">WS - Design Design Responsivo</h1>
 
                 <form class="main_header_search" name="search" action="" method="post">
@@ -23,6 +34,7 @@
             </div>
 
             <div class="main_header_menu">
+                <a class="mobmenu" href="#" title="Mobile Nav">MENU</a>
                 <div class="content">
                     <ul>
                         <li><a href="index.php" title="Home">Home</a></li>
