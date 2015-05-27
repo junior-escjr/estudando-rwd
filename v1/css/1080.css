@@ -2,4 +2,149 @@
 	width: 96%;
 }
 
-/* teste */
+/*BREAKPOINT 1080PX*/
+@media (max-width: 1080px){
+    .content{
+        width: 96%;
+    }
+}
+
+
+/*BREAKPOINT 880PX*/
+@media (max-width: 880px){
+    .content{
+        width: 94%;
+    }
+
+    .lastnews {
+        width: 100%;
+    }
+
+    .sidebar {
+        float: left;
+        width: 100%;
+        padding: 20px;
+        background-color: #eee;
+    }
+
+    .sidebar_widget {
+        width: 30%;
+        margin: 0 5% 0 0;
+    }
+
+    .sidebar_widget:nth-of-type(3n+0) {
+        margin-right: 0;
+    }
+
+    .sidebar_widget:nth-of-type(4) {
+        display: none;
+    }
+
+    /*.sidebar_widget .capaaqui {
+        background-color: #fff;
+    }*/
+}
+
+
+/*BREAKPOINT 620PX*/
+@media (max-width: 620px){
+    .main_header_logo {
+        max-width: 50%;
+    }
+
+    .main_header_search {
+        width: 40%;
+    }
+
+    .sidebar_widget {
+        width: 48%;
+        display: block !important;
+        margin: 0 4% 4% 0 !important;
+    }
+
+    .sidebar_widget:nth-of-type(2n+0) {
+        margin-right: 0 !important;
+    }
+}
+
+
+/*BREAKPOINT 580PX*/
+@media (max-width: 580px){
+    .content {
+        width: 96%;
+    }
+
+    .logosearch {
+        padding: 4% 0 !important;
+    }
+
+    .main_header_menu .content {
+        width: 100%;
+        display: none;
+    }
+
+    .main_header_menu li {
+        width: 50%;
+    }
+
+    .main_header_menu a {
+        width: 100%;
+    }
+
+    .main_header_menu .mobmenu {
+        display: block;
+        width: 100%;
+        background-color: #738cbf;
+    }
+
+    .main_header_menu .mobmenu.active {
+        background-color: #8ca8bf;
+    }
+
+    .single_header h1 {
+    	font-size: 1.8em;
+    }
+
+    .htmlchars h3 {
+    	font-size: 1.4em;
+    }
+}
+
+
+/*BREAKPOINT 460PX*/
+@media (max-width: 460px){
+    .main_header_logo {
+        max-width: 100%;
+        margin-bottom: 5%;
+        background-size: auto 96%;
+    }
+
+    .main_header_search {
+        float: left;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .main_header_menu li {
+        width: 100%;
+    }
+
+    .title-section {
+        font-size: .9em;
+    }
+
+    .lastnews_article, .sidebar_widget {
+        float: left;
+        width: 100%;
+        margin: 0 0 5% 0!important;
+    }
+}
+
+
+/*BREAKPOINT 340PX*/
+@media (max-width: 340px){
+    .main_header_search {
+        width: 100%;
+        margin: 0;
+    }
+}

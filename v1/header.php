@@ -5,9 +5,11 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>WS - RWD: Layout Fluído</title>
 
-        <link rel="stylesheet" href="css/style.css" />
         <link rel="shortcut icon" href="img/favicon.png"/>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/1080.css" />
 
         <script src="js/html5shiv.min.js"></script>
         <script src="js/jquery-1.11.1.min.js"></script>
@@ -30,7 +32,7 @@
                 <div class="content">
                     <ul>
                         <li><a href="index.php" title="Home">Home</a></li>
-                        <li><a href="index.php" title="Artigos">Artigos</a></li>
+                        <li><a href="artigo.php" title="Artigo">Artigo</a></li>
                         <li><a href="index.php" title="Categorias">Categorias</a></li>
                         <li><a href="index.php" title="Fale Conosco">Contato</a></li>
                     </ul>
