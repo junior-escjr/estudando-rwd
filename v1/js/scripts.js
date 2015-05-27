@@ -1,6 +1,7 @@
 var funcoes = {
 	init: function(){
 		this.menuMobile();
+		this.verificarTamanhoDaImagem();
 	},
 
 	menuMobile: function(){
@@ -8,6 +9,12 @@ var funcoes = {
 			$('.main_header_menu .content').slideToggle();
 			$(this).toggleClass('active');
 			return false;
+		});
+	},
+
+	verificarTamanhoDaImagem: function(){
+		$('.debug').each(function(){
+			$(this).after('<p style="color: #fff; background: #333; padding: 10px;">'+$(this).width()+'px</p>');
 		});
 	}
 }
