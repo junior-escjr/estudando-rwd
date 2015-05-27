@@ -831,7 +831,9 @@ class timthumb {
 		return true;
 	}
 	protected function calcDocRoot(){
-		$docRoot = @$_SERVER['DOCUMENT_ROOT'];
+		//$docRoot = @$_SERVER['DOCUMENT_ROOT'];
+		$docRoot = dirname(__FILE__);
+		
 		if (defined('LOCAL_FILE_BASE_DIRECTORY')) {
 			$docRoot = LOCAL_FILE_BASE_DIRECTORY;   
 		}

@@ -8,7 +8,23 @@
 
         <article class="lastnews_destaque">
             <header>
-                <div class="capaaqui"></div>
+                <!-- <picture alt="Img02">
+                    <source media="(min-width: 1600px)" srcset="uploads/02.jpg" />
+                    <source media="(min-width: 1080px)" srcset="timthumb.php?src=uploads/02.jpg&w=1600&h=800" />
+                    <source media="(min-width: 620px)" srcset="timthumb.php?src=uploads/02.jpg&w=1080&h=400" />
+                    <source media="(min-width: 380px)" srcset="timthumb.php?src=uploads/02.jpg&w=620&h=200" />
+                    <source media="(min-width: 10px)" srcset="timthumb.php?src=uploads/02.jpg&w=380&h=380" />
+
+                    <img src="uploads/02.jpg" alt="Img02" title="Img02" class="capaaqui">
+                </picture> -->
+
+
+                <picture alt="Img02">
+                    <source media="(min-width: 1600px)" srcset="uploads/02.jpg" />
+
+                    <img src="uploads/02.jpg" alt="Img02" title="Img02" class="capaaqui">
+                </picture>
+                
                 <h1><a href="#" title="Leia mais sobre [TITULO]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h1>
                 <time datetime="<?= date('Y-m-d'); ?>" pubdate><?= date('\d\i\a d/m/Y \à\s H:i\h\s'); ?></time>
             </header>
@@ -23,7 +39,7 @@
             ?>
             <article class="lastnews_article">
                 <header>
-                    <div class="capaaqui"></div>
+                    <img src="uploads/01.jpg" alt="Img01" title="Img01" class="capaaqui">
                     <h1><a href="#" title="Leia mais sobre [TITULO]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h1>
                     <time datetime="<?= date('Y-m-d'); ?>" pubdate><?= date('\d\i\a d/m/Y \à\s H:i\h\s'); ?></time>
                 </header>
@@ -43,7 +59,7 @@
         <?php for ($b = 1; $b <= 4; $b++): ?>
             <article class="sidebar_widget">
                 <header>
-                    <div class="capaaqui"></div>
+                    <img src="uploads/01.jpg" alt="Img01" title="Img01" class="capaaqui">
                     <h1><a href="#" title="Leia mais sobre [TITULO]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a></h1>
                     <time datetime="<?= date('Y-m-d'); ?>" pubdate><?= date('\d\i\a d/m/Y \à\s H:i\h\s'); ?></time>
                 </header>

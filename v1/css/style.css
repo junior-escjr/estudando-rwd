@@ -7,6 +7,15 @@
     -webkit-box-sizing: border-box;    
 }
 
+img, object, embed, video, iframe, iframe[style] {
+    max-width: 100%;
+    height: auto;
+}
+
+.capaaqui {
+    margin-bottom: 25px;
+}
+
 a{
     color: #3a465f;
 }
