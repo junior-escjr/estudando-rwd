@@ -33,7 +33,7 @@
                     <ul>
                         <li><a href="index.php" title="Home">Home</a></li>
                         <li><a href="artigo.php" title="Artigo">Artigo</a></li>
-                        <li><a href="index.php" title="Categorias">Categorias</a></li>
+                        <li><a href="categoria.php" title="Categoria">Categorias</a></li>
                         <li><a href="index.php" title="Fale Conosco">Contato</a></li>
                     </ul>
                     <div class="clear"></div>                    

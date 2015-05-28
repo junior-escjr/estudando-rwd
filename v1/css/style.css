@@ -202,14 +202,6 @@ a:hover{
     margin-bottom: 10px;
 }
 
-/*.lastnews_article .capaaqui{
-    float: left;
-    width: 100%;
-    margin-bottom: 20px;
-    background: #eee;
-    height: 150px;
-}*/
-
 .lastnews_article h1{
     margin: 10px 0;
     font-size: 18px;
@@ -246,6 +238,36 @@ a:hover{
 .htmlchars p {
     font-size: 1em;
     margin: 15px 0;
+}
+
+.art_for {
+    float: left;
+    width: 22.75%;
+    margin: 0 3% 3% 0;
+}
+
+.art_for:nth-of-type(4n+0) {
+    margin-right: 0;
+}
+
+.art_for h1 {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.art_for a {
+    text-decoration: none;
+    color: #2b4678;
+}
+
+.art_for a:hover {
+    text-decoration: underline;
+}
+
+.art_for time {
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #888;
 }
 
 /*SIDEBAR*/
