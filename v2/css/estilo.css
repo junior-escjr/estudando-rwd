@@ -2,3 +2,38 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* ESTRUTURA GLOBAL */
+.barra-topo{
+	background: #090909;
+	height: 17px;
+	width: 100%;
+}
+
+.container{
+	margin: 0 auto;	
+	width: 71%;
+}
+
+.linha-divisoria{
+	border-bottom: 1px solid #c0c0c0;
+}
+
+/* TOPO */
+.topo-site{
+	width: 100%;
+}
+
+.topo-site-logo{
+	background: url(../imagens/logo-creative-studio.png) no-repeat;
+	float: left;
+	font-size: 0;
+	height: 100px;
+	width: 100%;
+}
+
+/* MENU */
+.topo-site-menu{
+	float: left;
+	list-style: none;
+}
