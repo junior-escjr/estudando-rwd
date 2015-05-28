@@ -75,6 +75,16 @@
     .art_for:nth-of-type(2n+0) {
     	margin-right: 0 !important;
     }
+
+    .form_left, .form_right {
+    	float: left;
+    	width: 100%;
+    }
+
+    .form_action {
+    	margin: 0 0 15px 0;
+    	text-align: center;
+    }
 }
 
 

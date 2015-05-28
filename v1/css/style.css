@@ -12,6 +12,31 @@ img, object, embed, video, iframe, iframe[style] {
     height: auto;
 }
 
+fieldset {
+    border: 0;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+label span {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+input.btn {
+    width: auto;
+    cursor: pointer;
+}
+
 /* aspect ratio do youtube 16:9 */
 .ratiohd {
     position: relative;
@@ -290,6 +315,27 @@ a:hover{
 
 .sidebar_widget time{
     font-size: 0.8em;
+}
+
+.form_left {
+    float: left;
+    width: 48%;
+}
+
+.form_right {
+    float: right;
+    width: 48%;
+}
+
+.form_action {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.form_action .first {
+    margin-right: 15px;
 }
 
 /*FOOTER*/
