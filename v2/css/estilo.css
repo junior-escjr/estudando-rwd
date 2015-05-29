@@ -4,9 +4,13 @@
 }
 
 /* ESTRUTURA GLOBAL */
+.cf{
+	overflow: hidden;
+}
+
 .barra-topo{
 	background: #090909;
-	height: 17px;
+	height: 16px;
 	width: 100%;
 }
 
@@ -29,11 +33,32 @@
 	float: left;
 	font-size: 0;
 	height: 100px;
-	width: 100%;
+	margin: 20px 0 15px 0;
+	width: 183px;
 }
 
 /* MENU */
 .topo-site-menu{
-	float: left;
+	float: right;
 	list-style: none;
+}
+
+.topo-site-menu li{
+	color: #090909;
+	display: inline-block;
+}
+
+.topo-site-menu li a{
+	color: #090909;
+	display: inline-block;
+	font-family: 'arial';
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 60px 0 0 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.topo-site-menu li a:hover{
+	color: #fe9b00;
 }
