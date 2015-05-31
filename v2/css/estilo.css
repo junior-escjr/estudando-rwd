@@ -307,3 +307,24 @@ TRABALHANDO COM MEDIA QUERIES
 		margin-right: 0;
 	}
 }
+
+/* BREAKPOINT 1080px */
+@media(max-width: 1080px){
+	.container{
+	margin: 0 2% 0 2%;	
+	width: 96%;
+	}
+
+	.destaques-portfolio ul li{
+		display: inline-block;
+		height: 135px;
+		margin-right: 4.7%;
+		max-width: 215px;
+		width: 100%
+	}
+
+	.destaques-portfolio ul li:last-child{
+		margin-right: 0;
+	}	
+
+}
