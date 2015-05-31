@@ -164,7 +164,7 @@
 .destaques-portfolio ul li{
 	display: inline-block;
 	height: 135px;
-	margin-right: 1.4%;
+	margin-right: 8%;
 	max-width: 215px;
 	width: 100%
 }
@@ -290,3 +290,20 @@
 	width: 100%;
 }
 
+/*===============================
+TRABALHANDO COM MEDIA QUERIES
+================================*/
+/* BREAKPOINT 1280px */
+@media(max-width: 1280px){
+	.destaques-portfolio ul li{
+		display: inline-block;
+		height: 135px;
+		margin-right: 6.5%;
+		max-width: 215px;
+		width: 100%
+	}
+
+	.destaques-portfolio ul li:last-child{
+		margin-right: 0;
+	}
+}
