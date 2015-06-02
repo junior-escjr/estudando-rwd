@@ -16,7 +16,7 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
         <link rel="publisher" href="https://plus.google.com/107305124528362639842"/>
         <link rel="canonical" href="<?= HOME; ?>"/>
 
-        <meta itemprop="name" content=""/>
+        <meta itemprop="name" content="<?= $pg_title; ?>"/>
         <meta itemprop="description" content="Neste curso você vai aprender as melhores práticas em Design Responsivo, e como aplicá-las."/>
         <meta itemprop="image" content="img/index.jpg"/>
         <meta itemprop="url" content="<?= HOME; ?>"/> 
@@ -28,6 +28,7 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
         <link rel="shortcut icon" href="img/favicon.png"/>
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>   
         <link rel="stylesheet" href="_cdn/shadowbox/shadowbox.css"/>
+        <link rel="stylesheet" href="css/boot.css" />
     </head>
     <body>
         <header class="main_header container">
@@ -261,10 +262,6 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
                         echo "<a href='uploads/{$image}.jpg' rel='shadowbox[gb]'><img src='tim.php?src=uploads/{$image}.jpg&w=240&h=120' alt='Galeria' title='Galeria'/></a>";
                     endfor;
                     ?>
-                    <div class="gallery_more">
-                        <a href="uploads/12.jpg" rel="shadowbox[gb]"><img src='tim.php?src=uploads/12.jpg&w=240&h=120' alt='Galeria' title='Galeria'/></a>
-                        <a href="uploads/13.jpg" rel="shadowbox[gb]"><img src='tim.php?src=uploads/13.jpg&w=240&h=120' alt='Galeria' title='Galeria'/></a>
-                    </div>
                 </nav>
 
             </div><!-- MORE AND GALLERY -->
@@ -273,9 +270,9 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
         <footer class="main_footer container">
             <div class="content">
                 <ul class="main_footer_social">
-                    <li class="main_footer_social_twitter"><a target="_blank" href="https://twitter.com/UpInsideBr" title="UpInside no Twitter"><img src="img/social_twitter.png" alt="UpInside No Twitter" title="UpInside No Twitter"/></a></li>
-                    <li class="main_footer_social_twitter"><a target="_blank" href="https://plus.google.com/+upinside" title="UpInside no Google +"><img src="img/social_google.png" alt="UpInside no Google +" title="UpInside no Google +"/></a></li>
-                    <li class="main_footer_social_twitter"><a target="_blank" href="https://www.facebook.com/upinside" title="UpInside no Facebook"><img src="img/social_facebook.png" alt="UpInside no Facebook" title="UpInside no Facebook"/></a></li>
+                    <li><a target="_blank" href="https://twitter.com/UpInsideBr" title="UpInside no Twitter"><img src="img/social_twitter.png" alt="UpInside No Twitter" title="UpInside No Twitter"/></a></li>
+                    <li><a target="_blank" href="https://plus.google.com/+upinside" title="UpInside no Google +"><img src="img/social_google.png" alt="UpInside no Google +" title="UpInside no Google +"/></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/upinside" title="UpInside no Facebook"><img src="img/social_facebook.png" alt="UpInside no Facebook" title="UpInside no Facebook"/></a></li>
                 </ul>
 
                 <div class="main_footer_copy">
