@@ -29,6 +29,7 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>   
         <link rel="stylesheet" href="_cdn/shadowbox/shadowbox.css"/>
         <link rel="stylesheet" href="css/boot.css" />
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <header class="main_header container">
@@ -45,8 +46,8 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
                 <ul class="main_header_nav">
                     <li class="main_header_nav_search">
                         <form name="search" action="" method="post">
-                            <input type="search" placeholder="Pesquisar:" name="s">
-                            <input type="submit" value=""/>
+                            <input class="s" type="search" placeholder="Pesquisar:" name="s">
+                            <input class="b" type="submit" value=""/>
                         </form>
                     </li>
 
