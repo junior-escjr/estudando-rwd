@@ -30,6 +30,8 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
         <link rel="stylesheet" href="_cdn/shadowbox/shadowbox.css"/>
         <link rel="stylesheet" href="css/boot.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media-queries.css" />
+
     </head>
     <body>
         <header class="main_header container">
@@ -232,6 +234,7 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
 
                             <picture alt="Para Punta Cana">                    
                                 <source media="(min-width: 960px)" srcset="tim.php?src=uploads/03.jpg&w=500&h=300"/>
+                                <source media="(min-width: 480px)" srcset="tim.php?src=uploads/02.jpg&w=300&h=180"/>
                                 <source media="(min-width: 1px)" srcset="tim.php?src=uploads/02.jpg&w=300&h=300"/>                   
                                 <img src="uploads/02.jpg" alt="[Punta Cana]" title="Punta Cana"/>
                             </picture> 
@@ -244,7 +247,8 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
                         <article class="most_views_item">
                             <picture alt="Para Bora Bora">                    
                                 <source media="(min-width: 960px)" srcset="tim.php?src=uploads/05.jpg&w=500&h=300"/>
-                                <source media="(min-width: 1px)" srcset="tim.php?src=uploads/05.jpg&w=300&h=300"/>                   
+                                <source media="(min-width: 480px)" srcset="tim.php?src=uploads/05.jpg&w=300&h=180"/>
+                                <source media="(min-width: 1px)" srcset="tim.php?src=uploads/05.jpg&w=300&h=300"/>
                                 <img src="uploads/05.jpg" alt="[Bora Bora]" title="Bora Bora"/>
                             </picture> 
                             <div class="most_views_item_desc">
