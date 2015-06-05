@@ -265,7 +265,7 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
                     <?php
                     for ($i = 8; $i < 12; $i++):
                         $image = str_pad($i, 2, "0", STR_PAD_LEFT);
-                        echo "<a href='uploads/{$image}.jpg' rel='shadowbox[gb]'><img src='tim.php?src=uploads/{$image}.jpg&w=240&h=120' alt='Galeria' title='Galeria'/></a>";
+                        echo "<a href='uploads/{$image}.jpg' rel='shadowbox[gb]'><img src='tim.php?src=uploads/{$image}.jpg&w=360&h=200' alt='Galeria' title='Galeria'/></a>";
                     endfor;
                     ?>
                 </nav>
