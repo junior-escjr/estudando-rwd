@@ -180,6 +180,7 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
                             <time datetime="2015-01-26">26/01/2015 às 14:23hs</time>
                         </div>
                     </article>
+                    <div class="clear"></div>
                 </div>
             </section> <!-- FECHA MAIS VISTOS -->
 

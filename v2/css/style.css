@@ -130,3 +130,299 @@
 	background-color: #007fff;
 }
 
+/* SLIDE */
+
+.slide {
+	background-color: #222;
+	position: relative;
+	display: block;
+}
+
+.slide_controll {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+
+.slide_nav {
+	position: absolute;
+	padding: 5px 15px;
+	font-size: 2em;
+	background: rgba(255,255,255,0.6);
+	cursor: pointer;
+	z-index: 89;
+	border-radius: 50%;
+	moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.slide_nav:hover {
+	background-color: #007fff;
+}
+
+.slide_nav.back {
+	left: 0;
+	margin-left: 5px;
+}
+
+.slide_nav.go {
+	right: 0;
+	margin-right: 5px;
+}
+
+.slide_item {
+	display: none;
+}
+
+.slide_item.first {
+	display: block;
+}
+
+.slide_item_desc {
+	padding: 15px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.slide_item_desc h1 {
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.slide_item_desc a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.slide_item_desc a:hover {
+	text-decoration: underline;
+}
+
+.slide_item_desc .tagline {
+	font-size: .9em;
+	color: #bbb;
+	font-weight: 300;
+}
+
+
+/* DESTINOS MAIS VISTOS */
+
+.more_news {
+	padding: 10px 15px;
+	background: url('../img/bg_news.jpg');
+}
+
+.more_news_item {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	margin-top: 20px;
+	box-shadow: 0 0 5px #000;
+}
+
+.more_news_item_desc {
+	padding: 15px;
+}
+
+.more_news_item_desc h1 {
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
+.more_news_item_desc a {
+	text-decoration: none;
+	color: #007fff;
+}
+
+.more_news_item_desc a:hover {
+	text-decoration: underline;
+}
+
+.more_news_item_desc time {
+	font-size: .8em;
+	color: #888;
+}
+
+
+/* MELHORES DESTINOS */
+
+.bestviews_item {
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.bestviews_item time {
+	font-size: .9em;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 5px;
+	color: #007fff;
+}
+
+.bestviews_item h1 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.bestviews_item a {
+	text-decoration: none;
+	color: #000;
+}
+
+.bestviews_item a:hover {
+	text-decoration: underline;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+	padding: 10px;
+	background-color: #007fff;
+	margin-top: 30px;
+	text-align: center;
+	position: relative;
+	color: #fff;
+}
+
+.newsletter h1 {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.newsletter form {
+	width: 100%;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.newsletter input[type='email'] {
+	float: left;
+	width: 60%;
+	border: 0;
+	padding: 11px;
+}
+
+.newsletter input[type='submit'] {
+	float: left;
+	width: 40%;
+	background-color: #1a5977;
+	border: 0;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.newsletter_icon {
+	width: 54px;
+	height: 54px;
+	background: url('../img/newsletter.png') center center no-repeat #007fff;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-top: -24px;
+	margin-left: -27px;
+
+	border-radius: 50%;
+	moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+/*MAIS VISTOS*/
+
+.most_views {
+	background-color: #eee;
+}
+
+.most_views_item {
+	float: left;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.most_views_item img {
+	width: 35%;
+	float: left;
+}
+
+.most_views_item_desc {
+	width: 65%;
+	float: right;
+	padding-left: 15px;
+}
+
+.most_views_item_desc time {
+	font-size: .9em;
+	color: #333;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.most_views_item_desc h1 {
+	font-size: 1em;
+}
+
+.most_views_item_desc a {
+	text-decoration: none;
+	color: #007fff;
+}
+
+.most_views_item_desc a:hover {
+	text-decoration: underline;
+}
+
+
+/*GALERIA*/
+
+.gallery {
+	padding: 25px;
+}
+
+.gallery .section_title {
+	margin-bottom: 15px;
+}
+
+.gallery img {
+	float: left;
+	width: 50%;
+}
+
+
+/*FOOTER*/
+
+.main_footer {
+	padding: 10px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	font-size: .9em;
+}
+
+.main_footer_social {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.main_footer_social li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.main_footer_social a {
+	float: left;
+	padding: 10px;
+	background-color: #fff;
+
+	border-radius: 50%;
+	moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.main_footer_social a:hover {
+	background-color: #007fff;
+}
