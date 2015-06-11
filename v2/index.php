@@ -22,8 +22,10 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
         <meta itemprop="url" content="<?= HOME; ?>"/> 
 
         <!--[if lt IE 9]>
-            <script src="js/html5shiv.js"></script>
-        <![endif]-->   
+            <script src="_cdn/html5shiv.js"></script>
+        <![endif]-->
+
+        <script src="_cdn/picturefill.min.js"></script>
 
         <link rel="shortcut icon" href="img/favicon.png"/>
         <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>   
