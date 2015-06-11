@@ -292,5 +292,6 @@ $pg_title = 'Curso Design Responsivo | UpInside Treinamentos';
 
         <script src="_cdn/jquery.js"></script>
         <script src="_cdn/shadowbox/shadowbox.js"></script>
+         <script src="_cdn/scripts.js"></script>
     </body>
 </html><!--NDcxNw==-->
